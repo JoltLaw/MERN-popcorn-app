@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 12px;
+  padding: 38px;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%23ff0038' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.loadOptionList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+}
+
+.loadOption {
+  background-color: #ffffff;
+  padding: 8px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.container a:active,
+.container a:visited,
+.container a:link {
+  color: #1f1f1f;
+}

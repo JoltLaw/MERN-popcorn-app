@@ -1,0 +1,44 @@
+.door {
+  background-color: whitesmoke;
+  padding: 30px;
+  border-radius: 12px 0px 0px 12px;
+}
+
+.doorWindow {
+  padding: 103px 160px;
+  background-color: black;
+  border-radius: 12px;
+}
+
+.gameOptionsContainer {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 0px 12px 12px 0px;
+}
+
+.title {
+  background-color: black;
+  color: green;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.Option {
+  width: 200px;
+  font-size: 30px;
+}
+
+.rulesPage {
+  background-color: whitesmoke;
+  border-radius: 12px;
+  padding: 10px;
+  width: 40vw;
+  text-align: center;
+}
+
+.rulesPage p {
+  font-size: 20px;
+}
